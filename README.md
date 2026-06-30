@@ -1,18 +1,153 @@
-# React + Vite
+# Mini Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built with **React** and **Vite**. This project showcases my profile, technical skills, and projects with a clean, GitHub-inspired user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive and modern UI
+- Sticky navigation bar
+- Hero/About section
+- Project showcase with technology tags
+- Skills section with proficiency badges
+- Statistics cards
+- Clean component-based React architecture
+- Fast development using Vite
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
 
-## Expanding the Oxlint configuration
+### Frontend
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Development Tools
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## Project Structure
+
+```
+mini-portfolio-website/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── SkillBadge.jsx
+│   │   └── StatCard.jsx
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Devaprasanth2706/mini-portfolio-website.git
+```
+
+### Navigate to the project
+
+```bash
+cd mini-portfolio-website
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will start on the local development server.
+
+---
+
+## Available Scripts
+
+Start development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Highlights
+
+- Built using React functional components
+- Reusable UI components
+- Data-driven rendering using JavaScript arrays
+- Responsive layout
+- Clean and maintainable folder structure
+- Beginner-friendly architecture for future scalability
+
+---
+
+## Future Improvements
+
+- Dark/Light theme toggle
+- Contact form integration
+- Resume download button
+- Project filtering
+- Animations and transitions
+- Social media links
+- Deployment with a custom domain
+
+---
+
+## Author
+
+**Devaprasanth**
+
+Computer Science Engineering (AI & Data Science)
+
+SASTRA Deemed University
+
+GitHub: https://github.com/Devaprasanth2706
+
+---
+
+## License
+
+This project is intended for educational and personal portfolio purposes.
